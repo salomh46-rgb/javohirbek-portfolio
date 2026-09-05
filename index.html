@@ -1,53 +1,419 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Asqarov Javohirbek is a full-stack engineer and AI product developer building modern web platforms, automation tools, and AI-powered digital experiences." />
-    <meta name="keywords" content="full-stack engineer, AI developer, web developer, portfolio, SaaS products, automation, frontend backend, React, Node.js, AI engineer Uzbekistan" />
-    <meta name="theme-color" content="#0D0D0F" />
-    <meta property="og:title" content="Asqarov Javohirbek | Full-Stack & AI Engineer" />
-    <meta property="og:description" content="Product-focused full-stack engineer creating AI-powered web experiences, SaaS products, and automation systems." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Asqarov Javohirbek | Full-Stack & AI Engineer" />
-    <meta name="twitter:description" content="Modern portfolio for a full-stack engineer building AI-powered web products and digital experiences." />
-    <title>Asqarov Javohirbek | Full-Stack & AI Engineer</title>
-    <link rel="canonical" href="https://javohirbek.dev/" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Asqarov Javohirbek",
-        "jobTitle": "Full-Stack Engineer and AI Product Developer",
-        "url": "https://javohirbek.dev/",
-        "email": "salomh46@gmail.com",
-        "telephone": "+998905083302",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Tashkent",
-          "addressCountry": "UZ"
-        },
-        "sameAs": [
-          "https://t.me/Dr_eviluz"
-        ],
-        "knowsAbout": [
-          "React",
-          "TypeScript",
-          "Node.js",
-          "Python",
-          "AI automation",
-          "SaaS product development"
-        ]
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asqarov Javohirbek (Jasper) | Full-Stack & AI Solutions Engineer</title>
+  <meta name="description" content="Senior Full-Stack & AI Engineer specializing in Python, React, Next.js, Node.js, Telegram Bots, and Multi-Tenant SaaS systems." />
+  <meta name="theme-color" content="#0F172A" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#F0F9FF',
+              400: '#38BDF8',
+              500: '#0EA5E9',
+              600: '#0284C7',
+              dark: '#030712'
+            }
+          }
+        }
       }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #030712;
+      color: #F8FAFC;
+      overflow-x: hidden;
+    }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(56, 189, 248, 0.3);
+      box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.2);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glow-sphere {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: 0;
+      pointer-events: none;
+    }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #030712;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1E293B;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #38BDF8;
+    }
+  </style>
+</head>
+<body class="selection:bg-sky-500 selection:text-white">
+
+  <!-- Background Glows -->
+  <div class="glow-sphere w-[500px] h-[500px] bg-sky-500/15 top-0 -left-40"></div>
+  <div class="glow-sphere w-[600px] h-[600px] bg-indigo-500/15 top-[40%] -right-40"></div>
+  <div class="glow-sphere w-[500px] h-[500px] bg-purple-500/15 bottom-0 left-20"></div>
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-lg bg-slate-950/70 border-b border-slate-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-2 font-mono text-xl font-bold tracking-wider">
+        <span class="text-sky-400">&lt;</span>
+        <span class="text-white">JASPER</span>
+        <span class="text-sky-400">/&gt;</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-sky-400 transition">About</a>
+        <a href="#projects" class="hover:text-sky-400 transition">Featured Projects</a>
+        <a href="#skills" class="hover:text-sky-400 transition">Tech Stack</a>
+        <a href="#github" class="hover:text-sky-400 transition">GitHub & Open Source</a>
+        <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/salomh46-rgb" target="_blank" class="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-sky-500 text-slate-300 hover:text-white transition">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+        <a href="https://t.me/Dr_eviluz" target="_blank" class="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-sky-500 text-slate-300 hover:text-white transition">
+          <i data-lucide="send" class="w-5 h-5"></i>
+        </a>
+        <a href="#contact" class="hidden sm:inline-flex bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow-lg shadow-sky-500/20 transition transform hover:scale-105">
+          Hire Me
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="relative pt-36 pb-20 md:pt-48 md:pb-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-7 space-y-6 text-left">
+        <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-semibold uppercase tracking-wider">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          Available for Global & Remote Roles
+        </div>
+
+        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1]">
+          Architecting <br/>
+          <span class="gradient-text">Intelligent AI Systems</span> <br/>
+          & High-Scale Web Apps.
+        </h1>
+
+        <p class="text-slate-400 text-lg sm:text-xl max-w-2xl leading-relaxed">
+          Hi, I'm <b>Asqarov Javohirbek (Jasper)</b> — a passionate Full-Stack Engineer and AI Product Developer. I build multi-tenant SaaS platforms, open-source fintech SDKs, and autonomous AI agents.
+        </p>
+
+        <div class="pt-4 flex flex-wrap items-center gap-4">
+          <a href="#projects" class="bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-semibold px-7 py-3.5 rounded-2xl shadow-xl shadow-sky-500/25 transition transform hover:scale-105 flex items-center gap-2">
+            Explore Projects <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="https://github.com/salomh46-rgb" target="_blank" class="glass-card text-slate-200 font-semibold px-6 py-3.5 rounded-2xl hover:bg-slate-800 transition flex items-center gap-2">
+            <i data-lucide="github" class="w-5 h-5"></i> GitHub Profile
+          </a>
+        </div>
+
+        <!-- Quick Stats Banner -->
+        <div class="pt-8 grid grid-cols-3 gap-6 border-t border-slate-800/80">
+          <div>
+            <div class="text-2xl sm:text-3xl font-extrabold text-white">5+</div>
+            <div class="text-xs text-slate-400">Flagship Open-Source Apps</div>
+          </div>
+          <div>
+            <div class="text-2xl sm:text-3xl font-extrabold text-sky-400">100%</div>
+            <div class="text-xs text-slate-400">Test Coverage & Security</div>
+          </div>
+          <div>
+            <div class="text-2xl sm:text-3xl font-extrabold text-purple-400">24/7</div>
+            <div class="text-xs text-slate-400">Self-Healing Architecture</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual / Code Card -->
+      <div class="lg:col-span-5">
+        <div class="glass-card rounded-3xl p-6 shadow-2xl relative overflow-hidden border border-slate-700/80">
+          <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
+              <span class="w-3 h-3 rounded-full bg-yellow-500/80"></span>
+              <span class="w-3 h-3 rounded-full bg-emerald-500/80"></span>
+            </div>
+            <span class="font-mono text-xs text-slate-500">jasper_profile.ts</span>
+          </div>
+
+          <pre class="font-mono text-xs sm:text-sm text-slate-300 pt-4 leading-relaxed overflow-x-auto"><code><span class="text-purple-400">const</span> <span class="text-sky-400">engineer</span> = {
+  <span class="text-slate-400">name</span>: <span class="text-emerald-400">"Asqarov Javohirbek"</span>,
+  <span class="text-slate-400">alias</span>: <span class="text-emerald-400">"Jasper"</span>,
+  <span class="text-slate-400">role</span>: <span class="text-emerald-400">"Full-Stack & AI Engineer"</span>,
+  <span class="text-slate-400">location</span>: <span class="text-emerald-400">"Tashkent, UZ 🇺🇿"</span>,
+  <span class="text-slate-400">stack</span>: {
+    <span class="text-slate-400">backend</span>: [<span class="text-amber-300">"Python"</span>, <span class="text-amber-300">"Node.js"</span>, <span class="text-amber-300">"FastAPI"</span>],
+    <span class="text-slate-400">frontend</span>: [<span class="text-amber-300">"React"</span>, <span class="text-amber-300">"Next.js"</span>, <span class="text-amber-300">"Tailwind"</span>],
+    <span class="text-slate-400">ai_models</span>: [<span class="text-amber-300">"Gemini 3.1"</span>, <span class="text-amber-300">"NLP"</span>, <span class="text-amber-300">"Agents"</span>],
+    <span class="text-slate-400">databases</span>: [<span class="text-amber-300">"PostgreSQL"</span>, <span class="text-amber-300">"SQLite WAL"</span>, <span class="text-amber-300">"Redis"</span>]
+  },
+  <span class="text-slate-400">status</span>: <span class="text-emerald-400">"Building World-Class Products 🚀"</span>
+};</code></pre>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS SECTION -->
+  <section id="projects" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10">
+    <div class="text-center space-y-4 mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-bold uppercase tracking-wider">
+        Masterpieces
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white">Featured Open-Source Projects</h2>
+      <p class="text-slate-400 max-w-2xl mx-auto text-base sm:text-lg">
+        Production-tested applications, fintech SDKs, and developer tools built with modern architectures.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Project 1: Voice2Deal AI -->
+      <div class="glass-card rounded-3xl p-8 flex flex-col justify-between transition transform hover:-translate-y-1">
+        <div class="space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-3xl">🎙</span>
+            <span class="px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">Production SaaS</span>
+          </div>
+          <h3 class="text-2xl font-bold text-white">Voice2Deal AI</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Uzbekistan's #1 Voice POS, Inventory, and Debt Ledger AI system. Automatically analyzes natural Uzbek voice inputs into structured financial transactions with 24/7 AI Support, SQLite WAL concurrency, and Self-Healing Sentinel watchdog.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2">
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Python</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Gemini 3.1 Flash</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">SQLite WAL</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Docker</span>
+          </div>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between">
+          <a href="https://github.com/salomh46-rgb/voice2deal-ai-bot" target="_blank" class="text-sm font-semibold text-sky-400 hover:text-sky-300 flex items-center gap-1.5">
+            <i data-lucide="github" class="w-4 h-4"></i> View Code
+          </a>
+          <a href="https://t.me/Ovozli_SavdoBOT" target="_blank" class="text-sm font-semibold text-slate-300 hover:text-white flex items-center gap-1.5">
+            <i data-lucide="external-link" class="w-4 h-4"></i> Live Telegram Bot
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2: UzPayment SDK -->
+      <div class="glass-card rounded-3xl p-8 flex flex-col justify-between transition transform hover:-translate-y-1">
+        <div class="space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-3xl">💳</span>
+            <span class="px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-semibold">Open-Source SDK</span>
+          </div>
+          <h3 class="text-2xl font-bold text-white">UzPayment SDK</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Universal Multi-Provider Payment Gateway SDK for Uzbekistan unifying Click, Payme, Uzum Bank, and Paynet into a single clean API with 3-line FastAPI & Django adapters, automated MD5/HMAC verification, and checkout link generation.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2">
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Python SDK</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">FastAPI</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Django</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Payme & Click</span>
+          </div>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between">
+          <a href="https://github.com/salomh46-rgb/uzpayment-sdk" target="_blank" class="text-sm font-semibold text-sky-400 hover:text-sky-300 flex items-center gap-1.5">
+            <i data-lucide="github" class="w-4 h-4"></i> View Code & Documentation
+          </a>
+          <span class="text-xs font-mono text-emerald-400">100% Tests Passing</span>
+        </div>
+      </div>
+
+      <!-- Project 3: CollabFlow AI Canvas -->
+      <div class="glass-card rounded-3xl p-8 flex flex-col justify-between transition transform hover:-translate-y-1">
+        <div class="space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-3xl">⚡️</span>
+            <span class="px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-semibold">Real-Time Multiplayer</span>
+          </div>
+          <h3 class="text-2xl font-bold text-white">CollabFlow AI Canvas</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Real-Time Multiplayer Collaborative Whiteboard with sub-20ms live cursors, sticky notes, and freehand drawing, powered by an instantaneous Google Gemini AI Architecture Diagram Generator.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2">
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Next.js 14</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">WebSockets (Socket.io)</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Node.js</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Gemini AI</span>
+          </div>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between">
+          <a href="https://github.com/salomh46-rgb/collabflow-ai-canvas" target="_blank" class="text-sm font-semibold text-sky-400 hover:text-sky-300 flex items-center gap-1.5">
+            <i data-lucide="github" class="w-4 h-4"></i> View Code
+          </a>
+          <span class="text-xs font-mono text-sky-400">Multiplayer Ready</span>
+        </div>
+      </div>
+
+      <!-- Project 4: AI Code Reviewer Action -->
+      <div class="glass-card rounded-3xl p-8 flex flex-col justify-between transition transform hover:-translate-y-1">
+        <div class="space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-3xl">🤖</span>
+            <span class="px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-semibold">DevOps & CI/CD</span>
+          </div>
+          <h3 class="text-2xl font-bold text-white">AI Code Reviewer Action</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Automated AI-powered Pull Request reviewer and Security Auditor using Google Gemini. Performs OWASP vulnerability detection, $O(N^2)$ bottleneck discovery, and posts executive A+ to F grade reports directly into GitHub PRs.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-2">
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">GitHub Action</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Gemini 3.1</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Security Scan</span>
+            <span class="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-sky-300 font-mono">Docker</span>
+          </div>
+        </div>
+        <div class="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between">
+          <a href="https://github.com/salomh46-rgb/ai-code-reviewer-action" target="_blank" class="text-sm font-semibold text-sky-400 hover:text-sky-300 flex items-center gap-1.5">
+            <i data-lucide="github" class="w-4 h-4"></i> View Action Marketplace
+          </a>
+          <span class="text-xs font-mono text-purple-400">CI/CD Gate</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TECH STACK SECTION -->
+  <section id="skills" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10 border-t border-slate-800/80">
+    <div class="text-center space-y-4 mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-bold uppercase tracking-wider">
+        Expertise
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white">Technical Arsenal</h2>
+      <p class="text-slate-400 max-w-2xl mx-auto text-base">
+        A comprehensive overview of languages, frameworks, and developer toolkits I use daily.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="glass-card rounded-2xl p-6 space-y-3">
+        <h4 class="text-lg font-bold text-sky-400 flex items-center gap-2">
+          <i data-lucide="code" class="w-5 h-5"></i> Languages
+        </h4>
+        <ul class="text-slate-300 text-sm space-y-2">
+          <li>• Python 3.11+</li>
+          <li>• TypeScript</li>
+          <li>• JavaScript (ES6+)</li>
+          <li>• SQL (Postgres, SQLite)</li>
+          <li>• HTML5 / Modern CSS</li>
+        </ul>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 space-y-3">
+        <h4 class="text-lg font-bold text-indigo-400 flex items-center gap-2">
+          <i data-lucide="layout" class="w-5 h-5"></i> Frontend
+        </h4>
+        <ul class="text-slate-300 text-sm space-y-2">
+          <li>• React.js</li>
+          <li>• Next.js 14 (App Router)</li>
+          <li>• Tailwind CSS</li>
+          <li>• Redux Toolkit</li>
+          <li>• Responsive UI/UX</li>
+        </ul>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 space-y-3">
+        <h4 class="text-lg font-bold text-purple-400 flex items-center gap-2">
+          <i data-lucide="server" class="w-5 h-5"></i> Backend & AI
+        </h4>
+        <ul class="text-slate-300 text-sm space-y-2">
+          <li>• Node.js & Express</li>
+          <li>• FastAPI & Django</li>
+          <li>• Google Gemini AI (LLMs)</li>
+          <li>• WebSockets (Socket.io)</li>
+          <li>• Telegram Bot APIs</li>
+        </ul>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 space-y-3">
+        <h4 class="text-lg font-bold text-emerald-400 flex items-center gap-2">
+          <i data-lucide="database" class="w-5 h-5"></i> Cloud & DevOps
+        </h4>
+        <ul class="text-slate-300 text-sm space-y-2">
+          <li>• Docker & Docker Compose</li>
+          <li>• Linux / Ubuntu VPS</li>
+          <li>• PostgreSQL & SQLite WAL</li>
+          <li>• Redis Caching & PubSub</li>
+          <li>• GitHub Actions & CI/CD</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER -->
+  <footer id="contact" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10 border-t border-slate-800">
+    <div class="glass-card rounded-3xl p-8 sm:p-14 text-center max-w-4xl mx-auto relative overflow-hidden">
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-4">Let's Build Something Great</h2>
+      <p class="text-slate-400 text-base sm:text-lg mb-8 max-w-xl mx-auto">
+        Have a project in mind, an engineering role, or a partnership idea? Feel free to reach out directly.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="mailto:salomh46@gmail.com" class="bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-semibold px-8 py-4 rounded-2xl shadow-xl shadow-sky-500/25 transition transform hover:scale-105 flex items-center gap-2">
+          <i data-lucide="mail" class="w-5 h-5"></i> salomh46@gmail.com
+        </a>
+        <a href="https://t.me/Dr_eviluz" target="_blank" class="glass-card text-slate-200 font-semibold px-8 py-4 rounded-2xl hover:bg-slate-800 transition flex items-center gap-2">
+          <i data-lucide="send" class="w-5 h-5 text-sky-400"></i> Telegram (@Dr_eviluz)
+        </a>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+        <p>© 2026 Asqarov Javohirbek (Jasper). All rights reserved.</p>
+        <p class="font-mono mt-2 sm:mt-0">Designed & Engineered with Passion & AI</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
 </html>
